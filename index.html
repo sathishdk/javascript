@@ -22,6 +22,37 @@
 					</ul>
 					<p><input type="text" id="listText" value="Enter only text..." /> <input type="button" value="Add New List Item" id="addListItem" /></p>
 
+					<h2>Forms</h2>
+					<form name="myForm" id="myForm" method="get" action="index.html">
+						<p>
+							<label>Name</label> &nbsp; 
+							<input type="text" id="myTextField" name="myTextField" /> &nbsp;
+							<span id="error textError">Please enter a valid name</span>
+						</p>
+						<p>
+							<label>Gender</label> &nbsp; 
+							<select id="mySelectField" name="mySelectField">
+								<option value="0">Select an Option</option>
+								<option value="1">Male</option>
+								<option value="2">Female</option>
+							</select> &nbsp;
+							<span id="error selectError">Please enter a gender name</span>
+						</p>
+						<p>
+							<label>It is Me</label> &nbsp; 
+							<input type="radio" id="myRadioBtn" name="myRadioBtn" /> &nbsp;
+							<span id="error radioError">You are not a human</span>
+						</p>
+						<p>
+							<label>Remember Me</label> &nbsp; 
+							<input type="checbkox" id="myChekbox" name="myChekbox" /> &nbsp;
+							<span id="error checkError">Don't you want me to remember you?</span>
+						</p>
+						<p>
+							<input type="submit" id="submit" name="submit" />
+						</p>
+					</form>
+
 				</div>
 			</div>
 		</div>

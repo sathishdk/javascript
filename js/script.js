@@ -80,3 +80,6 @@ slide.onmouseover = function(){
 slide.onmouseout = function(){
 	intervalHandler = setInterval(slideShow, 2000);
 };
+
+/******** Forms ********/
+var form = document.forms.myForm;

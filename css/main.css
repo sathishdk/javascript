@@ -4,3 +4,8 @@ body{
 .container{
 	margin-top: 20px;
 }
+#error{
+	color: red;
+	font-variant: italics;
+	font-size:14px;
+}
